@@ -1,0 +1,116 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Signika Negative', sans-serif !important;
+  margin: 0;
+}
+.container3{
+    display:grid;
+    grid-template-columns: auto auto auto ;
+    background-color: rgb(220, 235, 220);
+
+    
+    
+}
+@media  screen and (max-width:768px){
+    .container3{
+        grid-template-columns: auto auto auto;
+      
+    }
+    
+  
+}
+
+
+@media only screen and (max-width:550px){
+    .container3{
+        grid-template-columns: 1fr;
+      
+    }
+    
+  
+}
+
+
+
+  img {
+    width: 250px;
+    
+  }
+  .container1 {
+    max-width: 1150px;
+    
+    margin: 0 auto;
+  }
+  .wordlwide {
+    background-color: antiquewhite;
+    height: 250px;
+    
+  }
+  
+  
+  
+  
+  .world__status
+ {
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.status__item {
+  width: 20%;
+}
+
+.status__item p {
+  text-transform: uppercase;
+}
+
+.confirmed {
+  color: #8d92bb;
+}
+
+.deaths {
+  color: #f86aa0;
+}
+
+.recovered {
+  color: brown;
+}
+@media (min-width: 650px) {
+    .world__status
+     {
+      justify-content: flex-start;
+    }
+  
+    .image {
+      display: block;
+    }
+  }
+  
+  @media (min-width: 1300px) {
+    .row {
+      display: flex;
+    }
+  }
+  h1 {
+    margin: 0;
+  }
+  .search_button{
+    border: 1px solid transparent;
+  cursor: pointer;
+  background-color: darksalmon;
+  padding: 2px 20px;
+  color: #fff;
+  outline: none;
+  position: relative;
+  right: 1px;
+  }
+  .btn{
+    background-color: rgb(185, 127, 219) !important;
+  }
+  
+  
